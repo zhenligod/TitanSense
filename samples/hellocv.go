@@ -4,7 +4,7 @@ import (
 	"image"
 	"image/color"
 
-	"code.google.com/p/go-tour/pic"
+	"golang.org/x/tour/pic"
 )
 
 type Image struct{}
