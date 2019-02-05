@@ -1,4 +1,4 @@
-package main
+package hello
 
 import (
 	"image"
@@ -24,7 +24,7 @@ func (im *Image) At(x, y int) color.Color {
 	return color.RGBA{uint8(x % 256), uint8(y % 256), uint8((x * y) % 256), 255}
 }
 
-func main() {
+func hello() {
 	m := Image{}
 	pic.ShowImage(&m)
 }
